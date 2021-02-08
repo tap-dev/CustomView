@@ -13,6 +13,8 @@
 		F309758C25C97CB4003901EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F309758B25C97CB4003901EF /* Assets.xcassets */; };
 		F309758F25C97CB4003901EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F309758D25C97CB4003901EF /* LaunchScreen.storyboard */; };
 		F309759C25C97E94003901EF /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309759B25C97E94003901EF /* CustomView.swift */; };
+		F3F6544325D19ADC00033F55 /* XiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F6544225D19ADC00033F55 /* XiblessViewController.swift */; };
+		F3F6544725D19C1F00033F55 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F6544625D19C1F00033F55 /* GenericViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F309758E25C97CB4003901EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F309759025C97CB4003901EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F309759B25C97E94003901EF /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		F3F6544225D19ADC00033F55 /* XiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XiblessViewController.swift; sourceTree = "<group>"; };
+		F3F6544625D19C1F00033F55 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				F309758425C97CB2003901EF /* SceneDelegate.swift */,
 				F309759B25C97E94003901EF /* CustomView.swift */,
 				F309758625C97CB2003901EF /* CustomViewController.swift */,
+				F3F6544225D19ADC00033F55 /* XiblessViewController.swift */,
+				F3F6544625D19C1F00033F55 /* GenericViewController.swift */,
 				F309759825C97E4C003901EF /* Resources */,
 			);
 			path = CustomView;
@@ -144,10 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F6544725D19C1F00033F55 /* GenericViewController.swift in Sources */,
 				F309758725C97CB2003901EF /* CustomViewController.swift in Sources */,
 				F309759C25C97E94003901EF /* CustomView.swift in Sources */,
 				F309758325C97CB2003901EF /* AppDelegate.swift in Sources */,
 				F309758525C97CB2003901EF /* SceneDelegate.swift in Sources */,
+				F3F6544325D19ADC00033F55 /* XiblessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
